@@ -29,3 +29,22 @@
 .movieCover {
   height: 100vh;
 }
+
+
+img {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex:1;
+}
+
+@media {max-width: 620px} {
+  .row {
+    flex-direction: column;
+  }
+}
