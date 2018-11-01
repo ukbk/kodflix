@@ -27,5 +27,6 @@
   to { transform: rotate(360deg); }
 }
 .App-movieCover {
-  width: 100%;;
+  width: 100%;
+  height: 100%;;
 }
